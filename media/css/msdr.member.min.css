@@ -1,0 +1,408 @@
+.font_clr{ color:#fff;}.mi_thumb {border: 1px solid #bbcfdb;background-color: #7aa2a4;}
+.ami_success{border:1px solid #b0e6d6; background-color:rgba(0, 157, 111, 0.1);padding: 10px;margin-bottom: 10px;color: #037554;}
+.ami_warning{border:1px solid #ffd9a6; background-color:rgba(191, 144, 1, 0.1);padding: 10px;margin-bottom: 10px;color: #995600;}
+.ami_danger{border:1px solid #FFB1B9; background-color:rgba(196, 3, 57, 0.1);padding: 10px;margin-bottom: 10px;color: #C80013;}
+.ami_default{border: 1px solid #DFDFDF;background-color: rgba(189, 189, 189, 0.1);padding: 10px;margin-bottom: 10px;color: #7B7B7B;}
+#getProfileImageChange{z-index:1;position:relative;text-align:center;margin-top:-50px;color:#121e2d;margin-bottom:25px;}#getProfileImageChange i:hover{color:#008288;cursor:pointer}
+.ami_title {height: 50px;padding: 13px 0px 0px 15px;background-color: #229197;color: #fff;font-weight: bold;text-transform: uppercase;}
+.amiBtnUp i {font-weight: bold;}.amiBtnDown i {font-weight: bold;}
+.amiBtnTgle{float:right;margin-right:10px;font-size:19px;margin-top:-3px;cursor:pointer;height:30px;width:30px;border-radius:30px;background-color:#025d62;}
+.amiBtnTgle:hover{background-color:#087b82;}.amiBtnUp { padding: 2px 0px 0px 9px;}.amiBtnDown {padding: 0px 0px 0px 9px; }.crdBrdr{border-top: 1px solid #0a7f86;}
+.crdDet{border-right:1px solid #E3DBDB; border-left:1px solid #E3DBDB;background-color: #fdfdfd;}
+#jnfoTr,#perInfoTr,#bnkInfoTr,#nomineeInfoTr,#memDocument{/*display:none;*/padding: 20px 15px 0px 15px;}
+.amiprD{padding: 8px 0px 8px 10px;border:1px solid #ddd; background-color:#f2f2f2;margin-bottom: 20px;}.joinM{ margin-left:10px;}.amiprDspn{font-weight:bold;}
+.amiprD i{ float:right;color:#006495;padding: 2.5px 7px 0px 0px;}
+.edtBltxt {width:70%;margin:-5px 0px -5px -2px;box-sizing:border-box;border:none;border-bottom-color: currentcolor;border-bottom-style: none;border-bottom-width: medium;background-color:rgba(255,0,0,0.0);border-bottom:1px solid rgba(0, 130, 136, .45);-webkit-transition: 0.5s;transition:0.5s;outline:none;color: #4d545b; }
+.edtBtn {border: 1px solid #005080;padding: 5px 12px 5px 12px;color: #fff;font-size: 14px;cursor: pointer;float: right;margin-bottom: 20px;background-color:#005080;box-shadow: 0 3px #a5acb0;border-radius: 7px;min-width: 95px;}.edtBtn:hover{ background-color:#0576b9;color:#fff;border: 1px solid #0576b9;}
+.edtBtn:active {background-color: #0068A6;box-shadow: 0 3px #0068A6;transform: translateY(2px);}
+.updtBtn {border: 1px solid #005080;padding: 5px 12px 5px 12px;color: #fff;font-size: 14px;cursor: pointer;float: right;margin-bottom: 20px;background-color:#005080;box-shadow: 0 3px #a5acb0;border-radius: 7px;width: 95px;}.updtBtn:hover{ background-color:#0576b9;color:#fff;border: 1px solid #0576b9;}
+.updtBtn:active {background-color: #0068A6;box-shadow: 0 3px #0068A6;transform: translateY(2px);}
+.mblW{ width:44% !important;}.mi-select select{width:65%;padding:0px 0px 0px 0px;border-bottom:1px solid rgba(0, 130, 136, .45);border-top:none;border-left:none; border-right:none;color: #4d545b;background-color:#f2f2f2;}
+#stateE,#districtE,#prMsg,#jnfoTr,#bnkInfoTr,#bnkMsg,#nomineeInfoTr,#memDocument,#nomineeMsg,#docfileUpload{ display:none;}
+.btm_border{ border-bottom: 1px solid #E3DBDB;padding-bottom: 20px !important;}
+.docAmiImg {border: 1px solid #d9dcdd;position: relative;overflow: hidden;margin: 0 auto; cursor: pointer;width: 200px;height: 200px;border-bottom: 0px;}
+.docAmiImg img{width: 100%;height: 100%;transition: 0.5s all ease-in-out;}
+.docAmiImg:hover img {transform: scale(2.5);}
+.docText { padding: 7px 5px 7px 5px ;background-color: #0a7f86;width: 200px;margin: 0 auto;border: 1px solid #0a7f86;border-top-color: rgb(11, 129, 168);border-top-style: solid;border-top-width: 1px;border-top: 0px;color: #fff;font-weight: bold;}.docText span > .bx-image {background-color: #025d62;padding: 8px 8px 8px 8px;margin-left: 5px;border-radius: 20px;cursor: pointer;font-size: 10px;float: right;}.docText span > .bx-trash {background-color: #b95701;padding: 8px 8px 8px 8px;margin-left: 5px;border-radius: 20px;cursor: pointer;font-size: 10px;float: right;}.docText span > .bx-trash:hover {background-color: #A44D00;}.docText span > .bx-image:hover {background-color: #006D73;}
+.drop-container:hover {background: #eee; border-color: #004d48;}.updocImg {margin-top: 20px;}.drop-container {position: relative;display: flex;gap: 10px;flex-direction: column;justify-content: center;align-items: center;padding: 20px;border-radius: 10px;border: 2px dashed #00756e;color: #444;cursor: pointer;transition: background .2s ease-in-out, border .2s ease-in-out;margin: 20px 5px 10px 5px;}.mi_form::file-selector-button {padding: 0.5rem 1rem;-webkit-margin-end: .75rem;margin-inline-end: 1rem; color:#fff; background-color:#099595; pointer-events: none;border-color: inherit; border-style: solid; border-width: 0;border-inline-end-width: 1px;border-radius: 0;-webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out; transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;}.mi_form::file-selector-button {font: inherit;-webkit-appearance: button;font-weight: bold;}.mibtn{background-color: #099595;color: #fff;padding:6px 10px 6px 16.7px;border-radius:0px 3px 3px 0px;border: 2px solid #099595;}.mi_group{border: 1px solid #099595;border-radius: 5px;}.mibtn:hover{border: 2px solid #0a7f86;background-color: #0a7f86;}.pull-right{ float:right;margin-left: 10px;}.delMsg {text-align: center; font-size: 20px;margin: 30px 0px 10px 0px;}.actnData {text-align: center;margin: 0px 0px 20px 0px;color: #f46a6a;}#docDetImg{ margin-left:5px; margin-right:5px; display:none;}.ami_toast {visibility: hidden;min-width: 35%;background-color: #f0f0f0;color: #333;border-radius: 5px;padding: 16px;position: fixed;z-index: 1;left: 40%;top: 61px;font-size: 17px;border: 1px solid #d7d7d7;}.tst_success{background-color: #1ab35c;border: 1px solid #1ab35c;color: #fff;}.tst_success i{ background-color: #057d39;border-radius: 10px;padding: 0px 2px 2px 2px;}.tst_danger{background-color: #e18847;border: 1px solid #d06415;color: #fff;}.tst_danger i{ background-color: #a64a06;border-radius: 10px;padding:2px;}.tst_warning{background-color: #bdaa00;border: 1px solid #a90;color: #fff;}.tst_warning i{ background-color: #847700;border-radius: 19px;padding: 2px 4px 4px 4px;font-size: 15px;}
+.mi_padd{margin: 0px 20px 0px 20px; padding-top: 20px;}
+
+
+
+/*----------------genealogy-scroll----------*/
+
+.genealogy-scroll::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+}
+.genealogy-scroll::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #e4e4e4;
+}
+.genealogy-scroll::-webkit-scrollbar-thumb {
+    background: #212121;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.genealogy-scroll::-webkit-scrollbar-thumb:hover {
+    background: #d5b14c;
+    transition: 0.5s;
+}
+
+
+/*----------------genealogy-tree----------*/
+.genealogy-body{
+    white-space: nowrap;
+    padding: 50px;
+    min-height: 500px;
+    padding-top: 10px;
+    text-align: center;
+}
+.genealogy-tree{
+  display: inline-block;
+}
+.genealogy-tree ul {
+    padding-top: 20px; 
+    position: relative;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+.genealogy-tree li {
+    float: left; text-align: center;
+    list-style-type: none;
+    position: relative;
+    padding: 20px 5px 0 5px;
+}
+.genealogy-tree li::before, .genealogy-tree li::after{
+    content: '';
+    position: absolute; 
+  top: 0; 
+  right: 50%;
+    border-top: 2px solid #00ac74;
+    width: 50%; 
+  height: 18px;
+}
+.genealogy-tree li::after{
+    right: auto; left: 50%;
+    border-left: 2px solid #00ac74;
+}
+.genealogy-tree li:only-child::after, .genealogy-tree li:only-child::before {
+    display: none;
+}
+.genealogy-tree li:only-child{ 
+    padding-top: 0;
+}
+.genealogy-tree li:first-child::before, .genealogy-tree li:last-child::after{
+    border: 0 none;
+}
+.genealogy-tree li:last-child::before{
+    border-right: 2px solid #00ac74;
+    border-radius: 0 5px 0 0;
+    -webkit-border-radius: 0 5px 0 0;
+    -moz-border-radius: 0 5px 0 0;
+}
+.genealogy-tree li:first-child::after{
+    border-radius: 5px 0 0 0;
+    -webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+}
+.genealogy-tree ul ul::before{
+    content: '';
+    position: absolute; top: 0; left: 50%;
+    border-left: 2px solid #00ac74;
+    width: 0; height: 20px;
+}
+.genealogy-tree li a{
+    text-decoration: none;
+    color: #666;
+    font-family: arial, verdana, tahoma;
+    font-size: 11px;
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.genealogy-tree li a:hover+ul li::after, 
+.genealogy-tree li a:hover+ul li::before, 
+.genealogy-tree li a:hover+ul::before, 
+.genealogy-tree li a:hover+ul ul::before{border-color:  #fbba00;}
+/*--------------memeber-card-design----------*/
+.member-view-box{padding:0px 20px;text-align: center;border-radius: 4px;position: relative;}
+.member-image{width: 60px;position: relative;}
+.member-image h3{ font-size:12px;margin: 3px 0px 0px -3px;}
+.member-image img{width: 60px; height: 60px; border-radius: 6px;background-color :#e8e5e5;z-index: 1; border-radius: 60px;border: 1px solid #ccc8c8; }
+:root{--mi-bar-color: #229197;--mi-bar-bg-color: #fff;--mi-bar_color: #fff;}
+.mi_tree{height: calc(100vh - 165px);overflow-y:scroll;overflow-x: scroll;scrollbar-width: thin;scrollbar-color: var(--mi-bar_color) var(--mi-bar-bg-color);}
+
+.mi_tree:hover{scrollbar-color: var(--mi-bar-color) var(--mi-bar-bg-color);}
+
+.hdr_clr{ background-color:#0576b9; color:#fff;text-transform: uppercase;}
+/*.arvBtn{ border:1px solid #000000;}
+.arvBtn i{ color:blue;}
+*/
+.miU {
+    padding: 6px;
+    background-color: #fff;
+    margin: 0px 5px 0px 0px;
+    color: #004b5b;
+    border-radius: 13px;
+}
+.ami_title span{ float:right;}
+
+
+.miBack {
+    padding: 3px 6px 4px 6px;
+    background-color: #fff;
+    margin:0px 15px 0px 0px;
+    color: #058ba8;
+    border-radius: 13px;
+}
+.miBack i{ font-weight:600;}
+.miBack:hover{ background-color:#e8e8e8;}
+.noMemner{ margin: 10px 0px 0px -35px;text-transform: uppercase;}
+
+.noMemner h3{ color:#a00;}
+.dbIcn {padding: 6px;background-color: #fff;margin: 0px 5px 0px 0px;color: #034f84;border-radius: 13px;}
+.dbTitle {text-transform: uppercase;color: #fff; background-color:#034f84;
+padding:10px;/*background-image: linear-gradient(to right, rgba(255, 222, 144, .5), rgb(206, 180, 105));*/}
+.btlHeader{ background-color: #009157;color: #fff;}
+
+.card-type-pricing
+{
+text-align: center;
+
+
+}
+
+.rewardN {
+  font-weight: 600;
+  color: #006982;
+  text-transform: capitalize;
+}
+.amiWallet {
+  color: #00605a;
+}.text-left {
+  text-align: left;
+}
+
+.rewaList{ list-style:none;}
+
+.rewaList li{ padding:15px 10px 15px 15px;border-bottom: 1px solid #e3e3e3;margin-left: -2rem;}
+
+.rewaList li:last-child{ border-bottom:0px;margin-bottom: -1rem;}
+
+.style-custom{ border:1px solid #e3e3e3;padding: 1.5rem; border-bottom:0px;background-color: rgba(157, 157, 157, 0.2);}
+.amiWalletSp {color: #9b6804;font-weight: bold;}
+.mIcn{ padding:5px; background-color:#dfdfdf;border-radius: 10px} 
+.amiPayRequest {
+    box-shadow: 0px 1px 3px 1px #dda4a9 inset;
+    padding: 5px 15px 5px 15px;
+    background-color: #fad7d4;
+    color: #a94442;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border: 1px solid #e3979d;
+}.amiwall {
+    font-size: 16px;
+    padding: 15px;
+    background-color: #d4fad6;
+    color: #037b48;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border: 1px solid #a6dd9d;
+    box-shadow: 0px 1px 6px 2px #a6df9d inset;
+}.amiEarnedBal {
+    box-shadow: 0px 1px 6px 2px #ecd3a8 inset;
+    font-size: 16px;
+    padding: 15px;
+    background-color: #faebd4;
+    color: #8a6d3b;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border: 1px solid #f7d7be;
+}
+
+.txt_width{ width:100% !important;margin-bottom: 20px;}
+
+.amtltip {position: relative;display: inline-block;cursor: pointer;/*  border-bottom: 1px dotted black;*/}
+.amtltip .tlptext{visibility:hidden;width: 180px; background-color: rgba(0, 18, 19, 0.99);color: #fff; text-align: center;border-radius: 6px;padding: 10px 10px 10px 10px;position: absolute;z-index: 1;  bottom: 110%;  left: 50%;  margin-left: -85%;white-space: pre-wrap;white-space: -moz-pre-wrap;white-space: -pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;}.amtltip .tlptext::after {content: ""; position: absolute;top: 100%; left: 50%;margin-left: -5px;border-width: 5px; border-style: solid;border-color: rgba(0, 18, 19, 0.99) transparent transparent transparent;}.amtltip:hover .tlptext {visibility:visible;}
+
+.ordDelevered {
+  background-color: #00997b;
+  width: 80px;
+  padding: 5px 0px 5px 11px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}.ordCancel {
+  background-color: #ecbcb1;
+  width: 80px;
+  padding: 5px 0px 5px 13px;
+  color: #800101;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}.ordPlced {
+  background-color: #dbcd00;
+  width: 80px;
+  padding: 5px 0px 5px 22px;
+  color: #756e00;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}.ordShipped {
+  background-color: #b1ece0;
+  width: 80px;
+  padding: 5px 0px 5px 16px;
+  color: #00997b;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.inrP {color: #0576b9;}
+.inrR{color: #b94905;}
+.amiCrdTitle {
+  background-color: #058ba8;
+  color: #FFFFFF;
+  padding: 10px;
+  font-weight: normal;
+}
+.amiCrdTitle a i {color: #FFFFFF !important;font-weight: lighter;}
+.amiCrdTitle a i:hover {font-weight: 900;}
+#getTargetForFrenchise{ display:none;}
+
+.slr_select {
+  background-color: #F2F2F2;
+  margin-bottom: 30px;padding-bottom: 10px;
+}.slr_title {background-color: #058ba8;color: #fff;padding: 10px 0px 10px 15px;font-weight: bold;}
+#slrPic,#byrPic{height:150px;width:130px;border:1px solid #d9d9d9;padding: 5px;border-top: 0px;}
+.miOPtn select{border: 1px solid #bbb;padding: 5px;width: 100%;}
+.fbold {  font-weight: bold;  padding-left: 5px;}
+.byr_search {
+  margin-top: -2px;
+  font-size: 14px;
+  margin-left: 2px;
+  z-index: 1;
+  position: absolute;
+}
+.kartBtn {
+  background-color: #058ba8;
+  border: none;
+  color: white;
+  padding: 2px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  float: right;
+}.buyr {
+  border: 1px solid rgba(0, 130, 136, .45);
+}
+#getTargetForBuyr{ display:none;}
+.srchToggle {margin-right: 10px;float: right;padding: 2px 5px 1px 5px;background-color: #fff;border-radius: 15px;color: #058ba8;cursor: pointer;}
+.srchToggle:hover{background-color:#eee;}
+.srchToggle i{ font-weight:bold; }
+
+
+.ordBlTxt {
+  width: 60px;
+  margin: -5px 0px -5px -2px;
+  box-sizing: border-box;
+  border: none;
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  background-color: rgba(255,0,0,0.0);
+  border-bottom: 1px solid rgba(0, 130, 136, .45);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  color: #4d545b;
+}
+
+
+
+
+
+
+/*-----------------------------Member Kart------------------------------------*/
+.partNr{text-align: center;padding: 10px; margin: 20px 25% -5% 25%;border: 1px solid rgba(0,130,136,.45);}.partNr ul{ list-style:none;margin-bottom: 0px;margin-left: -35px;}
+.partNr ul li{ text-align:left;padding:7px 0px 0px 10px;border-bottom: 1px dashed #686666;}.partNr ul li:last-child{ border-bottom:0px;}.cntnt{ padding:0px 0px 0px 5px; font-weight:bold;color: #004b5b;}#selrDet{ display:none;}.mbc{padding:0px 2px 0px 73px;font-weight:bold;}.embc{padding:0px 2px 0px 80px;font-weight:bold;}#slrAddr{margin:-21px 0px 0px 121px}
+.slrAddrbc{margin:-21px 0px 0px 114px;font-weight:bold;}.pnbc{padding:0px 1px 0px 27px; font-weight: bold;}.pcbc{padding: 0px 2px 0px 29px; font-weight: bold;}
+#sellerType{border:1px solid rgba(0, 130, 136, .45);padding: 0px 0px 0px 5px;height: 28px;width: 70%;}
+
+
+
+
+.proList ul li {
+  padding: 5px 10px 0px 5px;
+  margin: 0px 10px 0px -2rem;
+  border-bottom: 1px dashed #324234;
+  cursor: pointer;
+}.proList ul {
+  list-style: none;
+  height: 180px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: #eee #eee;
+  margin: 5px 0px -10px 0px;
+}.proList {
+  background-color: #eee;
+  position: absolute;
+  z-index: 100;
+  padding: 0px 0px 10px 10px;
+  margin: 3px 0px 0px -2px;
+  border: 1px solid #eee;
+  -webkit-box-shadow: 0 1px 5px 1px rgba(194,194,194,1);
+  -moz-box-shadow: 0 1px 5px 1px rgba(194,194,194,1);
+  box-shadow: 0 1px 5px 1px rgba(194,194,194,1);
+  display: none;
+  min-width: 235px;
+}
+#miWidth {
+  text-align: right;
+  width:88%
+}
+.kartTrash {
+  background-color: #8a0700;
+  border: none;
+  color: white;
+  padding: 2px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  float: right;
+}
+.shoppingN{ text-transform:capitalize;}
+.memIncDet{background-color: #F4F4F4;padding: 2rem 2rem 2rem 2rem;text-align: center;text-transform: uppercase;font-weight: 600;border: 1px dashed #099077;color: #904809;}
+.memIncDet i{ background-color:#904809;padding: 5px; color:#fff;background-color: #904809;padding: 5px;color: #fff;border: 1px solid #904809;border-radius: 15px; }
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+

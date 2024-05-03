@@ -1,0 +1,2 @@
+[11-May-2021 11:30:52 UTC] PHP Fatal error:  Class 'CI_DB_driver' not found in /home/shresthlogistics/public_html/Price/system/database/DB_query_builder.php on line 52
+[15-Oct-2023 00:26:08 UTC] PHP Parse error:  syntax error, unexpected '',' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) in /home/mrgenericfoods/public_html/msdr.live/index.php on line 208
