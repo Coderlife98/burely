@@ -70,7 +70,7 @@
                 <div class="container">
                     <div class="form-wrapper inner">
                         <div class="row">
-                            <div class="col-xl-8">
+                            <div class="col-xl-7">
                                 <div class="form-inside">
                                     <div class="form-head" data-aos="fade-up" data-aos-duration="1000">
                                         <div class="section-head text-center">
@@ -121,7 +121,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-4 d-flex  justify-content-center " data-aos="fade-up" data-aos-duration="1000">
+                            <div class="col-xl-5 d-flex  justify-content-center " data-aos="fade-up" data-aos-duration="1000">
                                <div class="img-contact">
                                 <img src="<?php echo base_url()?>media/website/assets/login.png" alt="">
                                </div>
