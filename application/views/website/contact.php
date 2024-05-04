@@ -121,9 +121,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-5 d-flex  justify-content-center " data-aos="fade-up" data-aos-duration="1000">
+                            <div class="col-xl-5 d-flex  justify-content-center align-items-center " data-aos="fade-up" data-aos-duration="1000">
                                <div class="img-contact">
-                                <img src="<?php echo base_url()?>media/website/assets/login.png" alt="">
+                                <img src="<?php echo base_url()?>media/website/assets/con-2.png" height="450px" alt="">
                                </div>
                             </div>
                         </div>
